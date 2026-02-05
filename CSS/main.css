@@ -1,0 +1,141 @@
+body{
+    background-color: #bcc8e5;
+    text-align: center;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+    border-color: #64376a;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button{
+    background-color: #6f7b83;
+    font-weight: bold;
+    border-style:none;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 1px rgb(166, 166, 170) ;
+}
+
+button:hover{
+    background-color: #040718;
+}
+
+p{
+    text-align: left;
+}
+
+ul{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#borrar{margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+#sumar{
+    width: 100px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    margin: 3px;
+    text-align: center;
+    color: white;
+}
+
+#resta{
+    margin: 3px;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+#producto{
+    margin: 3px;
+    width: 160px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+#division{
+    margin: 3px;
+    width: 110px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+#resultado{
+    padding: 30px;
+    width: 500px;
+    align-items: center;
+    align-content: center;
+}
+
+.botonesextra{
+    margin: 10px;
+    width: 200px;
+    padding: 50px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    border-bottom: #64376a;
+    text-align: center;
+    color: white;
+}
+
+.botones1{
+    width: 100px;
+    padding: 10px;
+    font-size: 25px;
+    border-style:none;
+    border-radius: 4px;
+    margin: 3px;
+    text-align: center;
+    color: white;
+}
+
+.carcasa{
+    border-radius: 10px;
+    background-color: #3c4044;
+    display:inline-table;
+    align-self: center;
+    align-content: center;
+    width: 600px;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(98, 98, 99);
+}
+
+.session1{
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+
+}

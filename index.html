@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="CSS/main.css">
+        <script src="Js/scripts.js"></script>
+    </head>
+    <body>
+        <h1>CALCULADORA</h1>
+        <div>
+            <ul>
+                <li>Para resolver un Valor Absoluto ingrese el numero en la casilla "Numero 1"</li>
+                <li>Para Numeros Random Deber establecer un limite minimo(Numero 1) y Maximo(Numero 2)</li>
+                <li>Para raiz debes solo ingresar el numero a "Numero 1"</li>
+                <li>Boton "Clear" limpia entrada y salida</li>
+            </ul>
+        </div>
+        <div class="carcasa">
+            <input type="number" name="numeros" id="num1" placeholder="Numero 1"><input type="number" id="num2" placeholder="Numero 2"><br>
+            <div class="session1">
+                <button id="sumar" onclick="mostrarResultados(sumar())">+</button>
+                <button id="resta" onclick="mostrarResultados(restar())">-</button>
+                <button id="producto" onclick="mostrarResultados(multiplicacion())">x</button>
+                <button id="division" onclick="mostrarResultados(division())">/</button>
+            </div>
+            <div class="session1">
+                <button class="botonesextra" onclick="mostrarResultados(potencia())">Potencia</button>
+                <button class="botonesextra" onclick="mostrarResultados(raiz())">Raiz</button><br>
+            </div>
+            <div class="session1">
+                <button class="botonesextra" onclick="mostrarResultados(absolute())">Absoluto</button>
+                <button class="botonesextra" onclick="mostrarResultados(random())">Random</button>
+            </div><br>
+            <button class="botones1" onclick="round()">Round</button>
+            <button class="botones1" onclick="floor()">Floor</button>
+            <button class="botones1" onclick="ceil()">Ceil</button>
+            <button id="borrar" onclick="borrar()">Clear</button>
+            <input type="number" name="resul" disabled id="solucion" value="0">
+        </div>
+    </body>
+</html>
